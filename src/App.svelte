@@ -12,15 +12,15 @@
 	import Air from './Air.svelte';
 	import Sourcing from './Sourcing.svelte';
 
-	function resize_handler(){
-		let width = window.innerWidth;
+	// function resize_handler(){
+	// 	let width = window.innerWidth;
 
-		console.log(width);
-	}
+	// 	console.log(width);
+	// }
 
 
-	resize_handler();
-	window.addEventListener("resize", resize_handler);
+	// resize_handler();
+	// window.addEventListener("resize", resize_handler);
 
 </script>
 
