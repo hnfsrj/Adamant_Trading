@@ -22,7 +22,7 @@
 
 <nav>
 
-    <p class="name">MESSP</p>
+    <a href="/#/"><p class="name">MESSP</p></a>
 
 </nav>
 
@@ -40,6 +40,11 @@
         box-shadow: 0px 4px 7px 2px rgba(0,0,0,0.4);
         padding:10px 16px;
         z-index:2;
+    }
+
+    a{
+        text-decoration: none;
+        color:inherit;
     }
 
     .name{
