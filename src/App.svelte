@@ -35,3 +35,6 @@
 	'/air': Air,
 	'/sourcing': Sourcing
 }} basepath="/Adamant_Trading" />
+
+
+export default routes;
