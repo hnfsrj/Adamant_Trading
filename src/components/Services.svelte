@@ -25,85 +25,76 @@
 
     <div class="service_container">
         
-        <a href="/#/air">
+        <a href="/#/raw">
             <div class="effect_shrink animate_shrink service_content">
 
                 <div style="background-image:url('./images/air/air1.jpg');" class="service_pic img"></div>
 
-                <p>Air-Condition Trading</p>
+                <p>Raw Materials</p>
 
             </div>
         </a>
 
-        <a href="/#/pump">
+        <a href="/#/consumer">
         <div class="effect_shrink animate_shrink service_content">
 
             <div style="background-image:url('./images/pump/pump1.jpg');" class="service_pic img"></div>
 
-            <p>Pumps, Valves & Engines</p>
+            <p>Consumer Goods</p>
 
         </div>
         </a>
 
-        <a href="/#/lift">
+        <a href="/#/specialized">
         <div class="effect_shrink animate_shrink service_content">
 
             <div style="background-image:url('./images/lift/lift1.webp');" class="service_pic img"></div>
 
-            <p>Lifts & Escalators</p>
+            <p>Specialized Products</p>
  
         </div>
         </a>
 
-        <a href="/#/solar">
+        <a href="/#/construction">
         <div class="effect_shrink animate_shrink service_content">
 
             <div style="background-image:url('./images/solar/solar1.jpg');" class="service_pic img"></div>
 
-            <p>Solar Systems & Components</p>
+            <p>Construction Materials</p>
 
         </div>
         </a>
         
-        <a href="/#/power">
+        <a href="/#/comprehensive">
         <div class="effect_shrink animate_shrink service_content">
 
             <div style="background-image:url('./images/power/power1.jpg');" class="service_pic img"></div>
 
-            <p>Power Equipment & Distribution</p>
+            <p>Comprehensive Project Solutions</p>
                 
         </div>
         </a>
 
-        <a href="/#/handling">
+        <a href="/#/air">
         <div class="effect_shrink animate_shrink service_content">
 
             <div style="background-image:url('./images/handling/handling1.jpg');" class="service_pic img"></div>
 
-            <p>Handling & Lifting Equipment</p>
+            <p>Air and Sea Cargo Services</p>
             
         </div>
         </a>
 
-        <a href="/#/industrial">
+        <a href="/#/sourcing">
         <div class="effect_shrink animate_shrink service_content">
 
             <div style="background-image:url('./images/industrial/industrial1.jpg');" class="service_pic img"></div>
 
-            <p>Industrial Equipment & Spare Parts</p>
+            <p>Sourcing and Supply Chain</p>
             
         </div>
         </a>
 
-        <a href="/#/refrigeration">
-        <div class="effect_shrink animate_shrink service_content">
-
-            <div style="background-image:url('./images/refrigeration/refrigeration1.jpg');" class="service_pic img"></div>
-
-            <p>Refrigeration & Cold Storage</p>
-            
-        </div>
-        </a>
 
     </div>
     
@@ -123,8 +114,8 @@
 
 
     #services{
-        padding-top:60px;
-        padding-bottom:60px;
+        padding-top:80px;
+        padding-bottom:80px;
     }
 
         #services > p{
@@ -182,7 +173,11 @@
 @media (min-width:401px){
 
     #services{
-        padding: 0px 16px;
+        /* padding: 0px 16px; */
+        padding-right:16px;
+        padding-left:16px;
+        padding-top:100px;
+        padding-bottom:100px;
 
     }
 
@@ -218,6 +213,10 @@
 
 @media (min-width:601px){
 
+    #services{
+        padding-top:120px;
+        padding-bottom:120px;
+    }
 
     .service_container{
         flex-direction:row;

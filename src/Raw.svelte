@@ -15,8 +15,8 @@
 <div id="container">
     <Top />
     <Back />
-    <Title name="Refrigeration and Cold Storage" />
-    <Description descript="Preserve freshness and maintain optimal temperatures with advanced refrigeration and cold storage solutions. Ideal for commercial and industrial use, our systems combine energy efficiency with reliable performance to meet all your cooling needs." />
+    <Title name="Raw Materials" />
+    <Description descript="Empower your industry with premium raw materials like steel, aluminum, and other essential inputs. Sourced from trusted suppliers, our materials ensure unmatched quality and reliability for your manufacturing and industrial needs." />
     <Pictures images = {imgs} />
 </div>
 

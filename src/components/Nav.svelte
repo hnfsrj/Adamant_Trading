@@ -70,7 +70,14 @@
         if (target.matches('.bottom>p') && !(target.matches('.bottom>div.bottom_services') || target.matches('.bottom>div.bottom_services>p'))){
             
             const to = target.innerText.toLowerCase();
-            document.querySelector(`#${to}`).scrollIntoView({ behavior: 'smooth'});
+
+            if (to == "home"){
+                document.querySelector(`#landing`).scrollIntoView({ behavior: 'smooth'});
+
+            }else{
+                document.querySelector(`#${to}`).scrollIntoView({ behavior: 'smooth'});
+
+            }
         }else{
             if (services && !(target.matches('.bottom>div.bottom_services') || target.matches('.bottom>div.bottom_services>p'))){
                 NavStore.update(current_state => {
@@ -133,7 +140,11 @@
 
     <div class="top">
 
-        <p class="name">MESSP</p>
+        {#if fix}
+            <p class="name">Adamant Trading</p>
+        {:else}
+            <div class="logo img"></div>
+        {/if}
 
         {#if !wide}
             {#if drop}
@@ -150,7 +161,7 @@
         {#if wide || !services}
             <div class="bottom">
                 
-                <p>About</p>
+                <p>Home</p>
                 <div style="position:relative;" class="bottom_services">
 
                     <p>Services</p>
@@ -158,22 +169,18 @@
                     {#if services && wide}
 
                         <div style="position:absolute;width:250px;" class="dropdown">
-                            <a href="/#/air"><p>Air-Condition Trading</p></a>
-                            <a href="/#/pump"><p>Pumps, Valves & Engines</p></a>
-                            <a href="/#/lift"><p>Lifts & Escalators</p></a>
-                            <a href="/#/solar"><p>Solar Systems & Components</p></a>
-                            <a href="/#/power"><p>Power Equipment & Distribution</p></a>
-                            <a href="/#/handling"><p>Handling & Lifting Equipment</p></a>
-                            <a href="/#/industrial"><p>Industrial Equipment & Spare Parts</p></a>
-                            <a href="/#/refrigeration"><p>Refrigeration & Cold Storage</p></a>
+                            <a href="/#/raw"><p>Raw Materials</p></a>
+                            <a href="/#/consumer"><p>Consumer Goods</p></a>
+                            <a href="/#/specialized"><p>Specialized Products</p></a>
+                            <a href="/#/construction"><p>Construction Materials</p></a>
+                            <a href="/#/comprehensive"><p>Comprehensive Project Solutions</p></a>
+                            <a href="/#/air"><p>Air and Sea Cargo Services</p></a>
+                            <a href="/#/sourcing"><p>Sourcing and Supply Chain</p></a>
                         </div>
             
                     {/if}
 
                 </div>
-                <p>Vision</p>
-                <p>Credibility</p>
-                <p>Team</p>
                 <p>Contact</p>
                 
             </div>
@@ -182,14 +189,13 @@
         {#if services && !wide}
 
             <div class="dropdown">
-                <a href="/#/air"><p>Air-Condition Trading</p></a>
-                <a href="/#/pump"><p>Pumps, Valves & Engines</p></a>
-                <a href="/#/lift"><p>Lifts & Escalators</p></a>
-                <a href="/#/solar"><p>Solar Systems & Components</p></a>
-                <a href="/#/power"><p>Power Equipment & Distribution</p></a>
-                <a href="/#/handling"><p>Handling & Lifting Equipment</p></a>
-                <a href="/#/industrial"><p>Industrial Equipment & Spare Parts</p></a>
-                <a href="/#/refrigeration"><p>Refrigeration & Cold Storage</p></a>
+                <a href="/#/raw"><p>Raw Materials</p></a>
+                <a href="/#/consumer"><p>Consumer Goods</p></a>
+                <a href="/#/specialized"><p>Specialized Products</p></a>
+                <a href="/#/construction"><p>Construction Materials</p></a>
+                <a href="/#/comprehensive"><p>Comprehensive Project Solutions</p></a>
+                <a href="/#/air"><p>Air and Sea Cargo Services</p></a>
+                <a href="/#/sourcing"><p>Sourcing and Supply Chain</p></a>
             </div>
 
         {/if}
@@ -290,12 +296,15 @@
         .top{
             display:flex;
             justify-content: space-between;
-            align-items: end;
+            align-items: center;
             padding:10px 16px;
-            height:30px;
         }
 
-
+            .logo{
+                width:80px;
+                aspect-ratio: 873/403;
+                background-image:url("./images/logo.png");
+            }
 
             .name{
                 color:var(--metal);
@@ -394,7 +403,7 @@
     }
 
     .logo{
-        width:40px;
+        width:100px;
     }
 
     .menu{
@@ -466,6 +475,10 @@
 
     nav.scrolled_wide{
         padding:5px 3.5%;
+    }
+    
+    .logo{
+        width:120px;
     }
 
 }

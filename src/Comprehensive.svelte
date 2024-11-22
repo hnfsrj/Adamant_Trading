@@ -15,8 +15,8 @@
 <div id="container">
     <Top />
     <Back />
-    <Title name="Lifts and Escalators" />
-    <Description descript="Enhance mobility and convenience with our reliable lifts and escalators. Engineered for safety, efficiency, and modern aesthetics, they are ideal for residential, commercial, and industrial spaces. Count on professional installation and maintenance to ensure uninterrupted operation." />
+    <Title name="Comprehensive Project Solutions" />
+    <Description descript="Simplify your projects with our one-stop solutions for all your needs. From planning to procurement and delivery, we provide seamless and efficient support for projects of any scale." />
     <Pictures images = {imgs} />
 </div>
 

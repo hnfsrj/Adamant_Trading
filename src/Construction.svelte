@@ -15,8 +15,8 @@
 <div id="container">
     <Top />
     <Back />
-    <Title name="Handling and Lifting Equipment" />
-    <Description descript="Streamline your operations with versatile handling and lifting equipment designed for heavy-duty tasks. From warehouses to construction sites, our equipment offers precision, safety, and durability to meet your toughest challenges." />
+    <Title name="Construction Materials" />
+    <Description descript="Build with confidence using top-tier construction materials, including ceramics, building finishes, HVAC systems, and accessories. Designed for durability and aesthetic appeal, our materials are perfect for every construction project." />
     <Pictures images = {imgs} />
 </div>
 

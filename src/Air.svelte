@@ -15,8 +15,8 @@
 <div id="container">
     <Top />
     <Back />
-    <Title name="Air Condition Trading" />
-    <Description descript="Stay cool and comfortable with top-quality, energy-efficient air conditioning units from trusted brands. Whether for your home or business, enjoy seamless installation, reliable maintenance, and exceptional performance tailored to your cooling needs. Upgrade your climate control today with solutions designed for comfort and sustainability." />
+    <Title name="Air and Sea Cargo Services" />
+    <Description descript="Experience efficient air and sea cargo services from key locations like the UAE, Turkey, China, and beyond. We ensure reliable and timely delivery of goods to your destination with expert logistics support." />
     <Pictures images = {imgs} />
 </div>
 

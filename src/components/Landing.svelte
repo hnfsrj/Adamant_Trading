@@ -5,6 +5,7 @@
 
     import {NavStore} from '../store/Store';
 
+    import Scroller from './Scroller.svelte';
 
 
 
@@ -17,8 +18,9 @@
     onMount(()=>{
         let elements = [];
 
-        elements.push(document.querySelector('section>p:first-of-type'));
-        elements.push(document.querySelector('section>p:last-of-type'));
+        elements.push(document.querySelector('section>div>p:first-of-type'));
+        elements.push(document.querySelector('section>div>p:nth-of-type(2)'));
+        elements.push(document.querySelector('section>div>p:last-of-type'));
 
         observeElements(elements);
 
@@ -31,11 +33,17 @@
 
 <div class="blocker">
 <section id="landing">
-    <p class="effect_blur animate_blur">Electro-Mechanical<br/> LLC</p>
 
-    <p class="effect_blur animate_blur">One stop solution for all<br/>your needs</p>
+    <div>
+        <p class="effect_blur animate_blur">Adamant Trading</p>
 
-    
+        <p class="effect_blur animate_blur">Where trade meets trust</p>
+
+        <p class="effect_blur animate_blur landing_about">Importing, exporting, and distributing goods across various industries, leveraging Dubai’s status as a global trade hub.</p>
+    </div>
+
+    <Scroller />
+
 </section>
 </div>
 
@@ -56,38 +64,61 @@
         min-height:100vh;
     }
 
-    section>p:first-of-type{
+    section>div>p:first-of-type{
         margin-top:20%;
-        text-align:start;
-        font-size:4rem;
+        text-align:center;
+        font-size:4.5rem;
         font-weight:700;
         color:var(--red);
         
     }
 
-    section>p:last-of-type{
+    section>div>p:nth-of-type(2){
         color:var(--metal);
-        font-size:1.6rem;
-        text-align:start;
+        font-size:2rem;
+        text-align:center;
         margin-top:10%;
         font-weight:500;
+    }
+    
+    section>div>p:last-of-type{
+        color:black;
+        font-size:1.7rem;
+        text-align:center;
+        margin-top:20%;
+        font-weight:400;
     }
 
 
 
 @media (min-width:401px){
 
-    section>p:first-of-type{
-        font-size:5.5rem;
+    section>div>p:first-of-type{
+        font-size:6rem;
     }
 
-    section>p:last-of-type{
-        font-size:2rem;
+    section>div>p:nth-of-type(2){
+        font-size:2.5rem;
         margin-top:13%;
 
     }
 
 
+    section>div>p:last-of-type{
+        font-size:1.9rem;
+        /* margin-top:20%; */
+    }
+
+
+
+}
+
+
+@media (min-width:601px){
+    section>div>p:last-of-type{
+        /* font-size:1.9rem; */
+        margin-top:17%;
+    }
 }
 
 
@@ -97,12 +128,12 @@
         display:none;
     } */
     
-    section>p:first-of-type{
+    section>div>p:first-of-type{
         font-size:5rem;
         margin-top:15%;
     }
     
-    section>p:last-of-type{
+    section>div>p:nth-of-type(2){
         margin-top:8%;
         font-size:2.2rem;
     }
@@ -116,13 +147,17 @@
 
 @media (min-width:701px){
 
-    section>p:first-of-type{
+    section>div>p:first-of-type{
         font-size:5.5rem;
-        margin-top:13%;
+        margin-top:10%;
     }
     
-    section>p:last-of-type{
+    section>div>p:nth-of-type(2){
         font-size:2.5rem;
+    }
+    
+    section>div>p:last-of-type{
+        margin-top:80px;
     }
 
 
@@ -132,13 +167,37 @@
 
 
 
-@media (min-width:801px){
+/* @media (min-width:801px){
+
+    #landing{
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+    }
+
+    #landing>div{
+        width:60%;
+    }
     
-    section>p:last-of-type{
+    section>div>p:nth-of-type(2){
         margin-top:7%;
     }
 
-}
+    section>div>p:first-of-type{
+        text-align:start; 
+    }
+
+    section>div>p:nth-of-type(2){
+        text-align:start;
+    }
+
+    section>div>p:last-of-type{
+        text-align:start;
+    }
+
+
+
+} */
 
 
 
@@ -148,14 +207,20 @@
 		padding:30px 10%;
 	}
 
-    section>p:first-of-type{
+    section>div>p:first-of-type{
         font-size:5.7rem;
     }
 
-    section>p:last-of-type{
+    section>div>p:nth-of-type(2){
         margin-top:5%;
         font-size:2.7rem;
 
+    }
+
+    section>div>p:last-of-type{
+        width:65%;
+        margin:0 auto;
+        margin-top:80px;
     }
 
 
@@ -167,25 +232,18 @@
 
 @media (min-width:1001px){
 
-    section>p:first-of-type{
+    section>div>p:first-of-type{
         margin-top:8%;
         font-size:7rem;
     }
 
-    section>p:last-of-type{
+    section>div>p:nth-of-type(2){
         margin-top:3.5%;
         font-size:3rem;
 
     }
 
 
-}
-
-@media (min-width:1051px){
-	/* #landing{
-		padding-left:15%;
-		padding-right:15%;
-	} */
 }
 
 

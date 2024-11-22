@@ -12,18 +12,30 @@
         <div class="contact_left">
             <p>Contact Us</p>
 
-            <p>Get in touch with us to discover how we can deliver exceptional electromechanical solutions designed specifically for your business requirements.</p>
+            <p>Email, call or complete the form to learn how we can provide you with premium engineering solutions tailored to your needs.</p>
 
-            <p>E-MAIL: messpdubai@gmail.com</p>
+            <p>E-MAIL: adamantexport@gmail.com</p>
 
             <div class="infos_div">
 
                 <div class="info">
-                    <div>Dubai Branch</div>
+                    <div>Head Office</div>
 
-                    <p>MOB: +971 50 278 8978<br/>(UAE)</p>
-                    <p>MOB: +251 911 20 60 64<br/>(ETH)</p>
+                    <p>TEL: +971 50 968 1540</p>
+                    <p>EMAIL: adamantexport<wbr/>@gmail.com </p>
+                    <p>DUBAI SHOPPING CENTRE, 1ST FLOOR OPPOSITE TO DEIRA CITY CENTER</p>
+                    <p>P.O.BOX 251006</p>
                     <p>DUBAI, UAE</p>
+
+                </div>
+                
+                <div class="info">
+                    <div>Branch Office</div>
+
+                    <p>TEL: +251 911 24 64 75</p>
+                    <p>EMAIL: info<wbr/>@gmail.com </p>
+                    <p>GOFA GEBRIEL JFK BUILDING 3RD FLOOR</p>
+                    <p>ADDIS ABABA, ETHIOPIA</p>
 
                 </div>
 
@@ -35,7 +47,7 @@
     
     </div>
 
-    <h6>© 2024 MESSP.<br/>All Rights Reserved.</h6>
+    <h6>© 2024 Adamant Trading.<br/>All Rights Reserved.</h6>
 
 </section>
 </div>

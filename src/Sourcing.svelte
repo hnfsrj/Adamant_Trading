@@ -15,8 +15,8 @@
 <div id="container">
     <Top />
     <Back />
-    <Title name="Solar Systems and Components" />
-    <Description descript="Harness the power of the sun with advanced solar systems and components. From residential setups to large-scale industrial solutions, our offerings prioritize efficiency, sustainability, and cost savings. Empower your energy independence with tailored solar solutions." />
+    <Title name="Sourcing and Supply Chain" />
+    <Description descript="Leverage our expertise in sourcing agricultural commodities from East Africa and supplying them to markets in the UAE, Middle East, and Asia. Our streamlined supply chain guarantees quality and timely delivery for your business." />
     <Pictures images = {imgs} />
 </div>
 

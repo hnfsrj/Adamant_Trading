@@ -15,8 +15,8 @@
 <div id="container">
     <Top />
     <Back />
-    <Title name="Power Equipment and Distribution" />
-    <Description descript="Power your operations with cutting-edge equipment and distribution systems. Built for reliability and performance, our solutions ensure seamless electricity flow for homes, businesses, and industries. Trust our expertise to deliver robust energy solutions." />
+    <Title name="Consumer Goods" />
+    <Description descript="Discover a wide range of consumer goods, from cutting-edge electronics to trendy fashion and FMCG products. We bring you trusted brands and high-quality products that cater to diverse preferences and lifestyles." />
     <Pictures images = {imgs} />
 </div>
 

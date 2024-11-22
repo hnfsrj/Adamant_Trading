@@ -15,8 +15,8 @@
 <div id="container">
     <Top />
     <Back />
-    <Title name="Pumps Valves and Engines" />
-    <Description descript="Ensure seamless operations with high-quality pumps, valves, and engines designed for durability and efficiency. Perfect for industrial and commercial applications, our products deliver exceptional performance while minimizing downtime. Backed by expert support and tailored solutions, trust us to keep your systems running smoothly." />
+    <Title name="Specialized Products" />
+    <Description descript="Enhance your operations with specialized high-tech equipment and machinery. Our advanced solutions are tailored to meet the demands of precision, performance, and innovation across industries." />
     <Pictures images = {imgs} />
 </div>
 
