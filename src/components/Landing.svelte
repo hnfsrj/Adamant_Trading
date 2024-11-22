@@ -4,8 +4,6 @@
     import {getContext, onMount} from 'svelte';
 
     import {NavStore} from '../store/Store';
-    import ServicesButton from './ServicesButton.svelte';
-    import Grid from './Grid.svelte';
 
 
 
@@ -37,9 +35,6 @@
 
     <p class="effect_blur animate_blur">One stop solution for all<br/>your needs</p>
 
-    <ServicesButton margined=true />
-    
-    <Grid />
     
 </section>
 </div>
