@@ -9,13 +9,16 @@
 
     let imgs = [
         {
-            "title": "Full Body Safety Harness Too",
-            "address": "./images/construction/construction1.jpeg",
+            "title": "Fashion Kids",
+            "address": "./images/fashion/fashion1.jpg",
         },
-        
         {
-            "title": "Home ToolKit",
-            "address": "./images/construction/construction2.jpeg",
+            "title": "Fashion Men",
+            "address": "./images/fashion/fashion2.jpg",
+        },
+        {
+            "title": "Fashion Women",
+            "address": "./images/fashion/fashion3.jpg",
         },
     ];
 
@@ -25,8 +28,8 @@
 <div id="container">
     <Top />
     <Back />
-    <Title name="Construction Accessories" />
-    <Description descript="Safety and utility tools to help you work efficiently and securely. " />
+    <Title name="Fashion" />
+    <Description descript="Comfortable, stylish clothing for kids, women, and men—perfect for everyday use. " />
     <Pictures images = {imgs} />
 </div>
 

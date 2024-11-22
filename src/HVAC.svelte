@@ -7,7 +7,16 @@
     import Description from './components/sub_components/Description.svelte';
     import Pictures from './components/sub_components/Pictures.svelte';
 
-    let imgs = ['./images/sourcing/sourcing1.jpg','./images/sourcing/sourcing2.jpg','./images/sourcing/sourcing3.jpg','./images/sourcing/sourcing4.jpg','./images/sourcing/sourcing5.jpg','./images/sourcing/sourcing6.jpg','./images/sourcing/sourcing7.jpg','./images/sourcing/sourcing8.jpg',];
+    let imgs = [
+        {
+            "title": "HVAC",
+            "address": "./images/hvac/hvac1.jpeg",
+        },
+        {
+            "title": "HVAC2",
+            "address": "./images/hvac/hvac2.jpeg",
+        },
+    ];
 
 </script>
 
@@ -15,8 +24,8 @@
 <div id="container">
     <Top />
     <Back />
-    <Title name="Sourcing and Supply Chain" />
-    <Description descript="Leverage our expertise in sourcing agricultural commodities from East Africa and supplying them to markets in the UAE, Middle East, and Asia. Our streamlined supply chain guarantees quality and timely delivery for your business." />
+    <Title name="HVAC" />
+    <Description descript="Reliable heating and cooling systems that perform in tough conditions. " />
     <Pictures images = {imgs} />
 </div>
 

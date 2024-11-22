@@ -7,7 +7,24 @@
     import Description from './components/sub_components/Description.svelte';
     import Pictures from './components/sub_components/Pictures.svelte';
 
-    let imgs = ['./images/comprehensive/comprehensive1.jpeg','./images/comprehensive/comprehensive2.jpeg'];
+    let imgs = [
+        {
+            "title": "Paints",
+            "address": "./images/finishing/finishing1.jpeg",
+        },
+        {
+            "title": "Sealants",
+            "address": "./images/finishing/finishing2.jpeg",
+        },
+        {
+            "title": "Varnishes",
+            "address": "./images/finishing/finishing3.jpeg",
+        },
+        {
+            "title": "Wallpapers",
+            "address": "./images/finishing/finishing4.jpeg",
+        },
+    ];
 
 </script>
 
@@ -15,8 +32,8 @@
 <div id="container">
     <Top />
     <Back />
-    <Title name="Comprehensive Project Solutions" />
-    <Description descript="Simplify your projects with our one-stop solutions for all your needs. From planning to procurement and delivery, we provide seamless and efficient support for projects of any scale." />
+    <Title name="Finishing Materials" />
+    <Description descript="Essential materials like paints, sealants, and wallpapers to complete your projects with style. " />
     <Pictures images = {imgs} />
 </div>
 

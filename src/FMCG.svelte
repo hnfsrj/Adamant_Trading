@@ -7,7 +7,13 @@
     import Description from './components/sub_components/Description.svelte';
     import Pictures from './components/sub_components/Pictures.svelte';
 
-    let imgs = ['./images/specialized/specialized1.jpeg','./images/specialized/specialized2.jpeg'];
+    let imgs = [
+        {
+            "title": "FMCG",
+            "address": "./images/fmcg/fmcg1.jpg",
+        },
+
+    ];
 
 </script>
 
@@ -15,8 +21,8 @@
 <div id="container">
     <Top />
     <Back />
-    <Title name="Specialized Products" />
-    <Description descript="Enhance your operations with specialized high-tech equipment and machinery. Our advanced solutions are tailored to meet the demands of precision, performance, and innovation across industries." />
+    <Title name="FMCG" />
+    <Description descript="Everyday essentials designed to make life simpler." />
     <Pictures images = {imgs} />
 </div>
 

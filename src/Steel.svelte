@@ -9,13 +9,20 @@
 
     let imgs = [
         {
-            "title": "Full Body Safety Harness Too",
-            "address": "./images/construction/construction1.jpeg",
-        },
-        
-        {
-            "title": "Home ToolKit",
-            "address": "./images/construction/construction2.jpeg",
+            "title": "Cold Rolled Steel Sheets:Coils",
+            "address": "./images/steel/steel1.jpg",
+        },{
+            "title": "Hot Rolled Steel",
+            "address": "./images/steel/steel2.jpg",
+        },{
+            "title": "Reinforcement Steel Bars",
+            "address": "./images/steel/steel3.jpg",
+        },{
+            "title": "Steel Billets",
+            "address": "./images/steel/steel4.jpg",
+        },{
+            "title": "Wire Rods",
+            "address": "./images/steel/steel5.jpg",
         },
     ];
 
@@ -25,8 +32,8 @@
 <div id="container">
     <Top />
     <Back />
-    <Title name="Construction Accessories" />
-    <Description descript="Safety and utility tools to help you work efficiently and securely. " />
+    <Title name="Steel" />
+    <Description descript="Durable steel options ideal for construction, manufacturing, and beyond." />
     <Pictures images = {imgs} />
 </div>
 

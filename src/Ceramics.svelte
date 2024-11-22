@@ -7,7 +7,20 @@
     import Description from './components/sub_components/Description.svelte';
     import Pictures from './components/sub_components/Pictures.svelte';
 
-    let imgs = ['./images/consumer/consumer1.jpg','./images/consumer/consumer2.jpg','./images/consumer/consumer3.jpg','./images/consumer/consumer4.jpg','./images/consumer/consumer5.jpg'];
+    let imgs = [
+        {
+            "title": "Ceramics Tiles",
+            "address": "./images/ceramics/ceramics1.jpg",
+        },
+        {
+            "title": "Disabled Wash Basin",
+            "address": "./images/ceramics/ceramics2.jpg",
+        },
+        {
+            "title": "Washbasin Mixer",
+            "address": "./images/ceramics/ceramics3.jpg",
+        },
+    ];
 
 </script>
 
@@ -15,8 +28,8 @@
 <div id="container">
     <Top />
     <Back />
-    <Title name="Consumer Goods" />
-    <Description descript="Discover a wide range of consumer goods, from cutting-edge electronics to trendy fashion and FMCG products. We bring you trusted brands and high-quality products that cater to diverse preferences and lifestyles." />
+    <Title name="Ceramics" />
+    <Description descript="High quality tiles and fittings designed to enhance both style and function your space." />
     <Pictures images = {imgs} />
 </div>
 

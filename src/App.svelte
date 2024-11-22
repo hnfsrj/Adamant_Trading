@@ -4,13 +4,15 @@
 
 	import Router from 'svelte-spa-router';
 	import Home from './Home.svelte';
-	import Raw from './Raw.svelte';
-	import Consumer from './Consumer.svelte';
-	import Specialized from './Specialized.svelte';
+	import Aluminium from './Aluminium.svelte';
+	import Steel from './Steel.svelte';
+	import Fashion from './Fashion.svelte';
+	import Electronics from './Electronics.svelte';
+	import Ceramics from './Ceramics.svelte';
+	import Finishing from './Finishing.svelte';
+	import HVAC from './HVAC.svelte';
 	import Construction from './Construction.svelte';
-	import Comprehensive from './Comprehensive.svelte';
-	import Air from './Air.svelte';
-	import Sourcing from './Sourcing.svelte';
+	import FMCG from './FMCG.svelte';
 
 	// function resize_handler(){
 	// 	let width = window.innerWidth;
@@ -27,14 +29,13 @@
 
 <Router routes={{
 	'/': Home,
-	'/raw': Raw,
-	'/consumer': Consumer,
-	'/specialized': Specialized,
+	'/aluminium': Aluminium,
+	'/steel': Steel,
+	'/fashion': Fashion,
+	'/electronics': Electronics,
+	'/ceramics': Ceramics,
+	'/finishing': Finishing,
+	'/hvac': HVAC,
 	'/construction': Construction,
-	'/comprehensive': Comprehensive,
-	'/air': Air,
-	'/sourcing': Sourcing
-}} basepath="/Adamant_Trading" />
-
-
-export default routes;
+	'/fmcg': FMCG
+}} />

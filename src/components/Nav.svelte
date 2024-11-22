@@ -169,13 +169,15 @@
                     {#if services && wide}
 
                         <div style="position:absolute;transform: translateX(-40%);width:250px;" class="dropdown">
-                            <a href="/#/raw"><p>Raw Materials</p></a>
-                            <a href="/#/consumer"><p>Consumer Goods</p></a>
-                            <a href="/#/specialized"><p>Specialized Products</p></a>
-                            <a href="/#/construction"><p>Construction Materials</p></a>
-                            <a href="/#/comprehensive"><p>Comprehensive Project Solutions</p></a>
-                            <a href="/#/air"><p>Air and Sea Cargo Services</p></a>
-                            <a href="/#/sourcing"><p>Sourcing and Supply Chain</p></a>
+                            <a href="/#/aluminium"><p>Alumunium</p></a>
+                            <a href="/#/steel"><p>Steel</p></a>
+                            <a href="/#/fashion"><p>Fashion</p></a>
+                            <a href="/#/electronics"><p>Electronics</p></a>
+                            <a href="/#/ceramics"><p>Ceramics</p></a>
+                            <a href="/#/finishing"><p>Finishing Materials</p></a>
+                            <a href="/#/hvac"><p>HVAC</p></a>
+                            <a href="/#/construction"><p>Construction Accessories</p></a>
+                            <a href="/#/fmcg"><p>FMCG</p></a>
                         </div>
             
                     {/if}
@@ -189,13 +191,15 @@
         {#if services && !wide}
 
             <div class="dropdown">
-                <a href="/#/raw"><p>Raw Materials</p></a>
-                <a href="/#/consumer"><p>Consumer Goods</p></a>
-                <a href="/#/specialized"><p>Specialized Products</p></a>
-                <a href="/#/construction"><p>Construction Materials</p></a>
-                <a href="/#/comprehensive"><p>Comprehensive Project Solutions</p></a>
-                <a href="/#/air"><p>Air and Sea Cargo Services</p></a>
-                <a href="/#/sourcing"><p>Sourcing and Supply Chain</p></a>
+                <a href="/#/aluminium"><p>Alumunium</p></a>
+                <a href="/#/steel"><p>Steel</p></a>
+                <a href="/#/fashion"><p>Fashion</p></a>
+                <a href="/#/electronics"><p>Electronics</p></a>
+                <a href="/#/ceramics"><p>Ceramics</p></a>
+                <a href="/#/finishing"><p>Finishing Materials</p></a>
+                <a href="/#/hvac"><p>HVAC</p></a>
+                <a href="/#/construction"><p>Construction Accessories</p></a>
+                <a href="/#/fmcg"><p>FMCG</p></a>
             </div>
 
         {/if}

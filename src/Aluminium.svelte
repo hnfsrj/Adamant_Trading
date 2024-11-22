@@ -7,7 +7,21 @@
     import Description from './components/sub_components/Description.svelte';
     import Pictures from './components/sub_components/Pictures.svelte';
 
-    let imgs = ['./images/air/air1.jpg','./images/air/air2.jpg'];
+    let imgs = [
+        {
+            "title": "Aluminium Flat Busbar",
+            "address": "./images/aluminium/aluminium1.jpg",
+        },{
+            "title": "Aluminium Rectangular Pipe",
+            "address": "./images/aluminium/aluminium2.jpg",
+        },{
+            "title": "Aluminium Square Tube",
+            "address": "./images/aluminium/aluminium3.jpg",
+        },{
+            "title": "Aluminum Window Section",
+            "address": "./images/aluminium/aluminium4.jpg",
+        },
+    ];
 
 </script>
 
@@ -15,8 +29,8 @@
 <div id="container">
     <Top />
     <Back />
-    <Title name="Air and Sea Cargo Services" />
-    <Description descript="Experience efficient air and sea cargo services from key locations like the UAE, Turkey, China, and beyond. We ensure reliable and timely delivery of goods to your destination with expert logistics support." />
+    <Title name="Alumunium" />
+    <Description descript="Strong, lightweight materials suited for any project or purpose." />
     <Pictures images = {imgs} />
 </div>
 

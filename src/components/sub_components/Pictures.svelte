@@ -11,11 +11,10 @@
         
 
         {#each images as image}
-
             <div class="pic">
-                <div style="background-image:url('{image}');" class="image"></div>
+                <div style="background-image:url({image.address});" class="image"></div>
+                <p class = "img_title">{image.title}</p>
             </div>
-
         {/each}
 
     </div>
@@ -30,7 +29,7 @@
         flex-wrap:wrap;
         justify-content: center;
         align-items: center;
-        gap:25px;
+        gap:50px;
         margin-top:80px;
     }
 
@@ -46,6 +45,15 @@
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center center;
+
+            }
+
+            .img_title{
+                font-weight:500;
+                font-size:1.8rem;
+                color:black;
+                margin-top: 15px;
+                text-align: center;
             }
 
 

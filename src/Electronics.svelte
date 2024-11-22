@@ -7,7 +7,20 @@
     import Description from './components/sub_components/Description.svelte';
     import Pictures from './components/sub_components/Pictures.svelte';
 
-    let imgs = ['./images/raw/raw1.jpg','./images/raw/raw2.jpg','./images/raw/raw3.jpg','./images/raw/raw4.jpg'];
+    let imgs = [
+        {
+            "title": "Desktop Computer",
+            "address": "./images/electronics/electronics1.jpg",
+        },
+        {
+            "title": "Security Cameras",
+            "address": "./images/electronics/electronics2.jpg",
+        },
+        {
+            "title": "Vacuum Cleaner",
+            "address": "./images/electronics/electronics3.jpg",
+        },
+    ];
 
 </script>
 
@@ -15,8 +28,8 @@
 <div id="container">
     <Top />
     <Back />
-    <Title name="Raw Materials" />
-    <Description descript="Empower your industry with premium raw materials like steel, aluminum, and other essential inputs. Sourced from trusted suppliers, our materials ensure unmatched quality and reliability for your manufacturing and industrial needs." />
+    <Title name="Electronics" />
+    <Description descript="Smart tools and gadgets that make work and home life easier and more efficient. " />
     <Pictures images = {imgs} />
 </div>
 

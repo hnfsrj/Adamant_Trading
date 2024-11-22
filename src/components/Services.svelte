@@ -25,72 +25,94 @@
 
     <div class="service_container">
         
-        <a href="/#/raw">
+        <a href="/#/aluminium">
             <div class="effect_shrink animate_shrink service_content">
 
-                <div style="background-image:url('./images/raw/raw1.jpg');" class="service_pic img"></div>
+                <div style="background-image:url('./images/aluminium/aluminium1.jpg');" class="service_pic img"></div>
 
-                <p>Raw Materials</p>
+                <p>Alumunium</p>
 
             </div>
         </a>
 
-        <a href="/#/consumer">
+        <a href="/#/steel">
         <div class="effect_shrink animate_shrink service_content">
 
-            <div style="background-image:url('./images/consumer/consumer1.jpg');" class="service_pic img"></div>
+            <div style="background-image:url('./images/steel/steel1.jpg');" class="service_pic img"></div>
 
-            <p>Consumer Goods</p>
+            <p>Steel</p>
 
         </div>
         </a>
 
-        <a href="/#/specialized">
+        <a href="/#/fashion">
         <div class="effect_shrink animate_shrink service_content">
 
-            <div style="background-image:url('./images/specialized/specialized1.jpeg');" class="service_pic img"></div>
+            <div style="background-image:url('./images/fashion/fashion1.jpg');" class="service_pic img"></div>
 
-            <p>Specialized Products</p>
+            <p>Fashion</p>
  
         </div>
         </a>
 
+        <a href="/#/electronics">
+        <div class="effect_shrink animate_shrink service_content">
+
+            <div style="background-image:url('./images/electronics/electronics2.jpg');" class="service_pic img"></div>
+
+            <p>Electronics</p>
+
+        </div>
+        </a>
+        
+        <a href="/#/ceramics">
+        <div class="effect_shrink animate_shrink service_content">
+
+            <div style="background-image:url('./images/ceramics/ceramics1.jpg');" class="service_pic img"></div>
+
+            <p>Ceramics</p>
+                
+        </div>
+        </a>
+
+        <a href="/#/finishing">
+        <div class="effect_shrink animate_shrink service_content">
+
+            <div style="background-image:url('./images/finishing/finishing1.jpeg');" class="service_pic img"></div>
+
+            <p>Finishing Materials</p>
+            
+        </div>
+        </a>
+
+        <a href="/#/hvac">
+        <div class="effect_shrink animate_shrink service_content">
+
+            <div style="background-image:url('./images/hvac/hvac1.jpeg');" class="service_pic img"></div>
+
+            <p>HVAC</p>
+            
+        </div>
+        </a>
+        
+        
         <a href="/#/construction">
         <div class="effect_shrink animate_shrink service_content">
 
             <div style="background-image:url('./images/construction/construction1.jpeg');" class="service_pic img"></div>
 
-            <p>Construction Materials</p>
-
-        </div>
-        </a>
-        
-        <a href="/#/comprehensive">
-        <div class="effect_shrink animate_shrink service_content">
-
-            <div style="background-image:url('./images/comprehensive/comprehensive1.jpeg');" class="service_pic img"></div>
-
-            <p>Comprehensive Project Solutions</p>
-                
-        </div>
-        </a>
-
-        <a href="/#/air">
-        <div class="effect_shrink animate_shrink service_content">
-
-            <div style="background-image:url('./images/air/air1.jpg');" class="service_pic img"></div>
-
-            <p>Air and Sea Cargo Services</p>
+            <p>Construction Accessories</p>
             
         </div>
         </a>
-
-        <a href="/#/sourcing">
+        
+        
+        <a href="/#/fmcg">
         <div class="effect_shrink animate_shrink service_content">
 
-            <div style="background-image:url('./images/sourcing/sourcing1.jpg');" class="service_pic img"></div>
+            <div style="background-image:url('./images/fmcg/fmcg1.jpg');" class="service_pic img"></div>
 
-            <p>Sourcing and Supply Chain</p>
+            <p>FMCG</p>
             
         </div>
         </a>

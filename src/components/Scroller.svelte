@@ -29,164 +29,158 @@
 
 <div class="scroller_container">
 
-    <div class="scrolled">
-
-        <div class="scroll">
-
-            <div style="background-image:url('./images/air/air1.jpg');" class="scroll_pic"></div>
-
-        </div>
-        
-        <div class="scroll">
-
-            <div style="background-image:url('./images/air/air2.jpg');" class="scroll_pic"></div>
-
-        </div>
-        
-        <div class="scroll">
-
-            <div style="background-image:url('./images/comprehensive/comprehensive1.jpeg');" class="scroll_pic"></div>
-
-        </div>
-
-        <div class="scroll">
-
-            <div style="background-image:url('./images/comprehensive/comprehensive2.jpeg');" class="scroll_pic"></div>
-
-        </div>
-
-        <div class="scroll">
-
-            <div style="background-image:url('./images/construction/construction1.jpeg');" class="scroll_pic"></div>
-
-        </div>
-
-
-        <div class="scroll">
-
-            <div style="background-image:url('./images/construction/construction2.jpeg');" class="scroll_pic"></div>
-
-        </div>
-        
-        
-        
-        <div class="scroll">
-
-            <div style="background-image:url('./images/construction/construction3.jpeg');" class="scroll_pic"></div>
-
-        </div>
-        
-        
-        <div class="scroll">
-
-            <div style="background-image:url('./images/construction/construction4.jpeg');" class="scroll_pic"></div>
-
-        </div>
-
-
-        <div class="scroll">
-
-            <div style="background-image:url('./images/sourcing/sourcing1.jpg');" class="scroll_pic"></div>
-
-        </div>
-
-
-        <div class="scroll">
-
-            <div style="background-image:url('./images/sourcing/sourcing2.jpg');" class="scroll_pic"></div>
-
-        </div>
-
-
-        <div class="scroll">
-
-            <div style="background-image:url('./images/sourcing/sourcing4.jpg');" class="scroll_pic"></div>
-
-        </div>
-
-
-
-    </div>
     
     
     <div class="scrolled">
 
         <div class="scroll">
 
-            <div style="background-image:url('./images/air/air1.jpg');" class="scroll_pic"></div>
+            <div style="background-image:url('./images/aluminium/aluminium2.jpg');" class="scroll_pic"></div>
 
         </div>
         
         <div class="scroll">
 
-            <div style="background-image:url('./images/air/air2.jpg');" class="scroll_pic"></div>
+            <div style="background-image:url('./images/finishing/finishing2.jpeg');" class="scroll_pic"></div>
 
         </div>
         
         <div class="scroll">
 
-            <div style="background-image:url('./images/comprehensive/comprehensive1.jpeg');" class="scroll_pic"></div>
+            <div style="background-image:url('./images/ceramics/ceramics2.jpg');" class="scroll_pic"></div>
 
         </div>
-
-        <div class="scroll">
-
-            <div style="background-image:url('./images/comprehensive/comprehensive2.jpeg');" class="scroll_pic"></div>
-
-        </div>
-
-        <div class="scroll">
-
-            <div style="background-image:url('./images/construction/construction1.jpeg');" class="scroll_pic"></div>
-
-        </div>
-
 
         <div class="scroll">
 
             <div style="background-image:url('./images/construction/construction2.jpeg');" class="scroll_pic"></div>
 
         </div>
-        
-        
-        
+
         <div class="scroll">
 
-            <div style="background-image:url('./images/construction/construction3.jpeg');" class="scroll_pic"></div>
-
-        </div>
-        
-        
-        <div class="scroll">
-
-            <div style="background-image:url('./images/construction/construction4.jpeg');" class="scroll_pic"></div>
+            <div style="background-image:url('./images/fmcg/fmcg1.jpg');" class="scroll_pic"></div>
 
         </div>
 
 
         <div class="scroll">
 
-            <div style="background-image:url('./images/sourcing/sourcing1.jpg');" class="scroll_pic"></div>
+            <div style="background-image:url('./images/hvac/hvac2.jpeg');" class="scroll_pic"></div>
+
+        </div>
+        
+        
+        
+        <div class="scroll">
+
+            <div style="background-image:url('./images/steel/steel2.jpg');" class="scroll_pic"></div>
+
+        </div>
+        
+        
+        <div class="scroll">
+
+            <div style="background-image:url('./images/finishing/finishing2.jpeg');" class="scroll_pic"></div>
 
         </div>
 
 
         <div class="scroll">
 
-            <div style="background-image:url('./images/sourcing/sourcing2.jpg');" class="scroll_pic"></div>
+            <div style="background-image:url('./images/fashion/fashion2.jpg');" class="scroll_pic"></div>
 
         </div>
 
 
         <div class="scroll">
 
-            <div style="background-image:url('./images/sourcing/sourcing4.jpg');" class="scroll_pic"></div>
+            <div style="background-image:url('./images/electronics/electronics2.jpg');" class="scroll_pic"></div>
 
         </div>
+
+
 
 
 
     </div>
+    
+    <div class="scrolled">
+
+        <div class="scroll">
+
+            <div style="background-image:url('./images/aluminium/aluminium2.jpg');" class="scroll_pic"></div>
+
+        </div>
+        
+        <div class="scroll">
+
+            <div style="background-image:url('./images/finishing/finishing2.jpeg');" class="scroll_pic"></div>
+
+        </div>
+        
+        <div class="scroll">
+
+            <div style="background-image:url('./images/ceramics/ceramics2.jpg');" class="scroll_pic"></div>
+
+        </div>
+
+        <div class="scroll">
+
+            <div style="background-image:url('./images/construction/construction2.jpeg');" class="scroll_pic"></div>
+
+        </div>
+
+        <div class="scroll">
+
+            <div style="background-image:url('./images/fmcg/fmcg1.jpg');" class="scroll_pic"></div>
+
+        </div>
+
+
+        <div class="scroll">
+
+            <div style="background-image:url('./images/hvac/hvac2.jpeg');" class="scroll_pic"></div>
+
+        </div>
+        
+        
+        
+        <div class="scroll">
+
+            <div style="background-image:url('./images/steel/steel2.jpg');" class="scroll_pic"></div>
+
+        </div>
+        
+        
+        <div class="scroll">
+
+            <div style="background-image:url('./images/finishing/finishing2.jpeg');" class="scroll_pic"></div>
+
+        </div>
+
+
+        <div class="scroll">
+
+            <div style="background-image:url('./images/fashion/fashion2.jpg');" class="scroll_pic"></div>
+
+        </div>
+
+
+        <div class="scroll">
+
+            <div style="background-image:url('./images/electronics/electronics2.jpg');" class="scroll_pic"></div>
+
+        </div>
+
+
+
+
+
+    </div>
+    
+    
+    
 
 
 </div>
@@ -243,14 +237,6 @@
                 background-position: center center;
             }
 
-                .scroller_container:hover .scrolled{
-                    animation-play-state: paused;
-                    transform: scale(1.2);
-                }
-
-                .scroll_pic:hover{
-                    transform: scale(1.1);
-                }
 
 @media (min-width:401px){
 
