@@ -28,7 +28,7 @@
         <a href="/#/raw">
             <div class="effect_shrink animate_shrink service_content">
 
-                <div style="background-image:url('./images/air/air1.jpg');" class="service_pic img"></div>
+                <div style="background-image:url('./images/raw/raw1.jpg');" class="service_pic img"></div>
 
                 <p>Raw Materials</p>
 
@@ -38,7 +38,7 @@
         <a href="/#/consumer">
         <div class="effect_shrink animate_shrink service_content">
 
-            <div style="background-image:url('./images/pump/pump1.jpg');" class="service_pic img"></div>
+            <div style="background-image:url('./images/consumer/consumer1.jpg');" class="service_pic img"></div>
 
             <p>Consumer Goods</p>
 
@@ -48,7 +48,7 @@
         <a href="/#/specialized">
         <div class="effect_shrink animate_shrink service_content">
 
-            <div style="background-image:url('./images/lift/lift1.webp');" class="service_pic img"></div>
+            <div style="background-image:url('./images/specialized/specialized1.jpeg');" class="service_pic img"></div>
 
             <p>Specialized Products</p>
  
@@ -58,7 +58,7 @@
         <a href="/#/construction">
         <div class="effect_shrink animate_shrink service_content">
 
-            <div style="background-image:url('./images/solar/solar1.jpg');" class="service_pic img"></div>
+            <div style="background-image:url('./images/construction/construction1.jpeg');" class="service_pic img"></div>
 
             <p>Construction Materials</p>
 
@@ -68,7 +68,7 @@
         <a href="/#/comprehensive">
         <div class="effect_shrink animate_shrink service_content">
 
-            <div style="background-image:url('./images/power/power1.jpg');" class="service_pic img"></div>
+            <div style="background-image:url('./images/comprehensive/comprehensive1.jpeg');" class="service_pic img"></div>
 
             <p>Comprehensive Project Solutions</p>
                 
@@ -78,7 +78,7 @@
         <a href="/#/air">
         <div class="effect_shrink animate_shrink service_content">
 
-            <div style="background-image:url('./images/handling/handling1.jpg');" class="service_pic img"></div>
+            <div style="background-image:url('./images/air/air1.jpg');" class="service_pic img"></div>
 
             <p>Air and Sea Cargo Services</p>
             
@@ -88,7 +88,7 @@
         <a href="/#/sourcing">
         <div class="effect_shrink animate_shrink service_content">
 
-            <div style="background-image:url('./images/industrial/industrial1.jpg');" class="service_pic img"></div>
+            <div style="background-image:url('./images/sourcing/sourcing1.jpg');" class="service_pic img"></div>
 
             <p>Sourcing and Supply Chain</p>
             

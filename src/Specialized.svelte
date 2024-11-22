@@ -7,7 +7,7 @@
     import Description from './components/sub_components/Description.svelte';
     import Pictures from './components/sub_components/Pictures.svelte';
 
-    let imgs = [1,1,1,1,1];
+    let imgs = ['./images/specialized/specialized1.jpeg','./images/specialized/specialized2.jpeg'];
 
 </script>
 

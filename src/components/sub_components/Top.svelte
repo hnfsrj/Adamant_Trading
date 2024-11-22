@@ -1,6 +1,23 @@
 
 <script>
+    import {onMount} from "svelte";
 
+    let scrollableDiv;
+
+    function toper(){
+        scrollableDiv.scrollTop = 0;
+    }
+
+    onMount(()=>{
+
+        scrollableDiv = document.querySelector("nav").parentElement;
+
+        window.addEventListener("load", toper);
+
+        return () => {
+            window.removeEventListener("load", toper)
+        };
+    });
 </script>
 
 <nav>

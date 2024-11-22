@@ -281,7 +281,8 @@
     }
 
         nav.fixation .top{
-            background:none;
+            /* background:none; */
+            background:var(--metal);
         }
 
             nav.fixation .name{

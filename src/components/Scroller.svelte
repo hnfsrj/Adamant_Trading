@@ -2,6 +2,27 @@
 
 <script>
 
+    import {onMount} from "svelte";
+
+    let scrollableDiv;
+
+    function left(){
+        scrollableDiv.scrollLeft = 0;
+    }
+
+    onMount(()=>{
+
+        scrollableDiv = document.querySelector(".scroller_container");
+
+        window.addEventListener("load", left);
+
+        window.addEventListener("resize", left);
+
+        return () => {
+            window.removeEventListener("load", left)
+            window.removeEventListener("resize", left)
+        };
+    });
 
 </script>
 
@@ -12,38 +33,154 @@
 
         <div class="scroll">
 
-            <div style="" class="scroll_pic"></div>
+            <div style="background-image:url('./images/air/air1.jpg');" class="scroll_pic"></div>
 
         </div>
         
         <div class="scroll">
 
-            <div style="" class="scroll_pic"></div>
+            <div style="background-image:url('./images/air/air2.jpg');" class="scroll_pic"></div>
 
         </div>
         
         <div class="scroll">
 
-            <div style="" class="scroll_pic"></div>
+            <div style="background-image:url('./images/comprehensive/comprehensive1.jpeg');" class="scroll_pic"></div>
 
         </div>
 
         <div class="scroll">
 
-            <div style="" class="scroll_pic"></div>
+            <div style="background-image:url('./images/comprehensive/comprehensive2.jpeg');" class="scroll_pic"></div>
 
         </div>
 
         <div class="scroll">
 
-            <div style="" class="scroll_pic"></div>
+            <div style="background-image:url('./images/construction/construction1.jpeg');" class="scroll_pic"></div>
 
         </div>
 
 
         <div class="scroll">
 
-            <div style="" class="scroll_pic"></div>
+            <div style="background-image:url('./images/construction/construction2.jpeg');" class="scroll_pic"></div>
+
+        </div>
+        
+        
+        
+        <div class="scroll">
+
+            <div style="background-image:url('./images/construction/construction3.jpeg');" class="scroll_pic"></div>
+
+        </div>
+        
+        
+        <div class="scroll">
+
+            <div style="background-image:url('./images/construction/construction4.jpeg');" class="scroll_pic"></div>
+
+        </div>
+
+
+        <div class="scroll">
+
+            <div style="background-image:url('./images/sourcing/sourcing1.jpg');" class="scroll_pic"></div>
+
+        </div>
+
+
+        <div class="scroll">
+
+            <div style="background-image:url('./images/sourcing/sourcing2.jpg');" class="scroll_pic"></div>
+
+        </div>
+
+
+        <div class="scroll">
+
+            <div style="background-image:url('./images/sourcing/sourcing4.jpg');" class="scroll_pic"></div>
+
+        </div>
+
+
+
+    </div>
+    
+    
+    <div class="scrolled">
+
+        <div class="scroll">
+
+            <div style="background-image:url('./images/air/air1.jpg');" class="scroll_pic"></div>
+
+        </div>
+        
+        <div class="scroll">
+
+            <div style="background-image:url('./images/air/air2.jpg');" class="scroll_pic"></div>
+
+        </div>
+        
+        <div class="scroll">
+
+            <div style="background-image:url('./images/comprehensive/comprehensive1.jpeg');" class="scroll_pic"></div>
+
+        </div>
+
+        <div class="scroll">
+
+            <div style="background-image:url('./images/comprehensive/comprehensive2.jpeg');" class="scroll_pic"></div>
+
+        </div>
+
+        <div class="scroll">
+
+            <div style="background-image:url('./images/construction/construction1.jpeg');" class="scroll_pic"></div>
+
+        </div>
+
+
+        <div class="scroll">
+
+            <div style="background-image:url('./images/construction/construction2.jpeg');" class="scroll_pic"></div>
+
+        </div>
+        
+        
+        
+        <div class="scroll">
+
+            <div style="background-image:url('./images/construction/construction3.jpeg');" class="scroll_pic"></div>
+
+        </div>
+        
+        
+        <div class="scroll">
+
+            <div style="background-image:url('./images/construction/construction4.jpeg');" class="scroll_pic"></div>
+
+        </div>
+
+
+        <div class="scroll">
+
+            <div style="background-image:url('./images/sourcing/sourcing1.jpg');" class="scroll_pic"></div>
+
+        </div>
+
+
+        <div class="scroll">
+
+            <div style="background-image:url('./images/sourcing/sourcing2.jpg');" class="scroll_pic"></div>
+
+        </div>
+
+
+        <div class="scroll">
+
+            <div style="background-image:url('./images/sourcing/sourcing4.jpg');" class="scroll_pic"></div>
 
         </div>
 
@@ -75,7 +212,7 @@
         align-items:start;
         justify-content: start;
         width:fit-content;
-        /* animation: 15s slide infinite linear; */
+        animation: 25s slide infinite linear;
     }
 
     @keyframes slide{
@@ -106,6 +243,14 @@
                 background-position: center center;
             }
 
+                .scroller_container:hover .scrolled{
+                    animation-play-state: paused;
+                    transform: scale(1.2);
+                }
+
+                .scroll_pic:hover{
+                    transform: scale(1.1);
+                }
 
 @media (min-width:401px){
 

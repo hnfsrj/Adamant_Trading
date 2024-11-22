@@ -41,7 +41,7 @@
 
             .image{
                 width:100%;
-                aspect-ratio: 1/1;
+                aspect-ratio: 16/9;
                 background:silver;
                 background-size: cover;
                 background-repeat: no-repeat;
