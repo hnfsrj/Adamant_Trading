@@ -85,7 +85,7 @@
             form input[type="submit"]{
                 display: block;
                 color:white;
-                background:var(--green);
+                background:var(--red);
                 outline:none;
                 border:none;
                 box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.25);

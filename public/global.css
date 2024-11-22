@@ -55,7 +55,7 @@ body{
 	width:100vw;
     box-sizing: border-box;
     min-width:300px;
-	background:var(--blue);
+	background:var(--blue_green);
 	overflow: hidden;
 }
 

@@ -56,7 +56,7 @@
 <style>
 
     #contact{
-        background:var(--blue);
+        background:var(--blue_green);
         position:relative;
         min-width:300px;
         max-width:1300px;
@@ -69,7 +69,7 @@
 
 
         .contact_left>p:first-of-type{
-            color:var(--green);
+            color:white;
             font-weight:700;
             font-size:3rem;
             margin-bottom:20px;
@@ -100,8 +100,8 @@
         }
 
             .info>div{
-                color:white;
-                background:var(--green);
+                color:var(--blue_green);
+                background:white;
                 border-radius:13px;
                 width:50%;
                 padding:7px 0px;

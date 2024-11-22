@@ -168,7 +168,7 @@
 
                     {#if services && wide}
 
-                        <div style="position:absolute;width:250px;" class="dropdown">
+                        <div style="position:absolute;transform: translateX(-40%);width:250px;" class="dropdown">
                             <a href="/#/raw"><p>Raw Materials</p></a>
                             <a href="/#/consumer"><p>Consumer Goods</p></a>
                             <a href="/#/specialized"><p>Specialized Products</p></a>
@@ -250,7 +250,7 @@
         nav.wide .bottom p{
             font-weight:500;
             font-size:1.4rem;
-            color:var(--blue);
+            color:var(--metal);
         }
 
             nav.wide .bottom p:hover{
@@ -259,16 +259,20 @@
             
             nav.wide.fixation .bottom p:hover{
                 color:white;
-                background:var(--green);
+                background:var(--red);
             }
 
 
             nav.scrolled_wide{
-                background:var(--blue);
+                background:var(--metal);
             }
 
                 nav.scrolled_wide .bottom p{
                     color:white;
+                }
+                
+                nav.scrolled_wide .bottom .bottom_services .dropdown p{
+                    color:var(--metal);
                 }
         
 
@@ -277,7 +281,7 @@
     }
 
         nav.fixation .top{
-            background:var(--metal);
+            background:none;
         }
 
             nav.fixation .name{
@@ -374,7 +378,7 @@
 
             .dropdown p:hover{
                 cursor:pointer;
-                background:var(--blue);
+                background:var(--red);
                 color:white;
             }
 
