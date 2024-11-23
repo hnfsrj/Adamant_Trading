@@ -57,12 +57,6 @@
 
         </div>
 
-        <div class="scroll">
-
-            <div style="background-image:url('./images/fmcg/fmcg1.jpg');" class="scroll_pic"></div>
-
-        </div>
-
 
         <div class="scroll">
 
@@ -85,12 +79,6 @@
 
         </div>
 
-
-        <div class="scroll">
-
-            <div style="background-image:url('./images/fashion/fashion2.jpg');" class="scroll_pic"></div>
-
-        </div>
 
 
         <div class="scroll">
@@ -131,12 +119,6 @@
 
         </div>
 
-        <div class="scroll">
-
-            <div style="background-image:url('./images/fmcg/fmcg1.jpg');" class="scroll_pic"></div>
-
-        </div>
-
 
         <div class="scroll">
 
@@ -156,13 +138,6 @@
         <div class="scroll">
 
             <div style="background-image:url('./images/finishing/finishing2.jpeg');" class="scroll_pic"></div>
-
-        </div>
-
-
-        <div class="scroll">
-
-            <div style="background-image:url('./images/fashion/fashion2.jpg');" class="scroll_pic"></div>
 
         </div>
 
