@@ -28,7 +28,7 @@
         display:flex;
         flex-wrap:wrap;
         justify-content: center;
-        align-items: center;
+        align-items: start;
         gap:50px;
         margin-top:80px;
     }
@@ -45,6 +45,7 @@
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center center;
+                border: 2px solid var(--metal);
 
             }
 
