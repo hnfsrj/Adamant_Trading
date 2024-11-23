@@ -53,6 +53,9 @@
         box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.25);
         padding:20px 10px;
         font-size:1.6rem;
+        height:fit-content;
+        flex-shrink: 0;
+        flex-grow: 0;
         
     }
 

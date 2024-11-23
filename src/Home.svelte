@@ -5,6 +5,7 @@
 	import {NavStore} from './store/Store';
 	import {OtherStates} from './store/Other';
 	import {ServicesState} from './store/Other';
+	import {MapState} from './store/Other';
 
 	import Nav from './components/Nav.svelte';
 	import Landing from './components/Landing.svelte';
@@ -110,13 +111,36 @@
         });
 
 		if (width >= 771){
-			NavStore.update(current_state => {
-                return {...current_state, "wide":true};
-            });
+			if(!$NavStore.wide){
+				NavStore.update(current_state => {
+					return {...current_state, "wide":true};
+				});
+
+			}
 		}else{
-			NavStore.update(current_state => {
-                return {...current_state, "wide":false};
-            });
+			if($NavStore.wide){
+				NavStore.update(current_state => {
+					return {...current_state, "wide":false};
+				});
+			}
+			
+		}
+
+		
+		if (width >= 901){
+			if(!$MapState.wide){
+				MapState.update(current_state => {
+					return {...current_state, "wide":true};
+				});
+
+			}
+		}else{
+			if($MapState.wide){
+				MapState.update(current_state => {
+					return {...current_state, "wide":false};
+				});
+			}
+			
 		}
 
 

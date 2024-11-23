@@ -2,7 +2,14 @@
 
 <script>
 
+    import {MapState} from '../store/Other';
+    
     import ContactForm from './ContactForm.svelte';
+    import Map from './Map.svelte';
+    import Socials from './Socials.svelte';
+
+    $: wide = $MapState.wide;
+
 </script>
 
 <div class="blocker2">
@@ -15,6 +22,8 @@
             <p>Email, call or complete the form to learn how we can provide you with premium engineering solutions tailored to your needs.</p>
 
             <p>E-MAIL: adamantexport@gmail.com</p>
+
+            <!-- <Socials /> -->
 
             <div class="infos_div">
 
@@ -41,11 +50,26 @@
 
             </div>
 
+            {#if !wide}
+                <div class="maps_and_socials">
+                    <Map />
+                    <Socials />
+                </div>
+            {/if}
+
+
         </div>
 
         <ContactForm />
     
     </div>
+
+    {#if wide}
+        <div class="maps_and_socials">
+            <Map />
+            <Socials />
+        </div>
+    {/if}
 
     <h6>© 2024 Adamant Trading.<br/>All Rights Reserved.</h6>
 
@@ -119,6 +143,16 @@
                 font-weight:400;
                 margin-bottom:7px;
             }
+
+        .maps_and_socials{
+            width:100%;
+            display: flex;
+            flex-direction:column;
+            gap:30px;
+            align-items: start;
+            margin:0 auto;
+            margin-bottom:80px;
+        }
 
 
     h6{
@@ -212,32 +246,36 @@
 
 @media (min-width:601px){
 
-    #contact .contact_left>p:nth-of-type(2){
-        /* font-weight:300; */
-    }
-    
-    #contact .contact_left>p:last-of-type{
-        /* font-weight:300; */
-    }
-
     #contact .infos_div{
         margin-bottom:15%;
     }
 
-    #contact .info p{
-        /* font-weight:500;                      */
-    }
 
     #contact .info>div{
         width:65%;
 
     }
+
+
+    .maps_and_socials{
+        width:80%;
+    }
+
 }
 
 @media (min-width:801px){
 
     #contact .info>div{
         width:60%;
+    }
+
+}
+
+
+@media (min-width:851px){
+
+    .maps_and_socials{
+        width:70%;
     }
 
 }
@@ -288,6 +326,11 @@
     }
 
 
+
+    .maps_and_socials{
+        width:100%;
+        align-items: center;
+    }
 
 }
 

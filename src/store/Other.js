@@ -13,3 +13,8 @@ export const OtherStates = writable({
 export const ServicesState = writable({
     "chosen": "cat1"
 });
+
+
+export const MapState = writable({
+    "wide":false
+});
