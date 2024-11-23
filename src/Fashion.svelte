@@ -10,15 +10,15 @@
     let imgs = [
         {
             "title": "Fashion Kids",
-            "address": "./images/fashion/fashion1.jpg",
+            "address": "./images/fashion/fashion1.webp",
         },
         {
             "title": "Fashion Men",
-            "address": "./images/fashion/fashion2.jpg",
+            "address": "./images/fashion/fashion2.webp",
         },
         {
             "title": "Fashion Women",
-            "address": "./images/fashion/fashion3.jpg",
+            "address": "./images/fashion/fashion3.webp",
         },
     ];
 

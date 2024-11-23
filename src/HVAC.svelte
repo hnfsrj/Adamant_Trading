@@ -10,11 +10,11 @@
     let imgs = [
         {
             "title": "HVAC",
-            "address": "./images/hvac/hvac1.jpeg",
+            "address": "./images/hvac/hvac1.webp",
         },
         {
             "title": "HVAC2",
-            "address": "./images/hvac/hvac2.jpeg",
+            "address": "./images/hvac/hvac2.webp",
         },
     ];
 

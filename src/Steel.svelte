@@ -10,19 +10,19 @@
     let imgs = [
         {
             "title": "Cold Rolled Steel Sheets:Coils",
-            "address": "./images/steel/steel1.jpg",
+            "address": "./images/steel/steel1.webp",
         },{
             "title": "Hot Rolled Steel",
-            "address": "./images/steel/steel2.jpg",
+            "address": "./images/steel/steel2.webp",
         },{
             "title": "Reinforcement Steel Bars",
-            "address": "./images/steel/steel3.jpg",
+            "address": "./images/steel/steel3.webp",
         },{
             "title": "Steel Billets",
-            "address": "./images/steel/steel4.jpg",
+            "address": "./images/steel/steel4.webp",
         },{
             "title": "Wire Rods",
-            "address": "./images/steel/steel5.jpg",
+            "address": "./images/steel/steel5.webp",
         },
     ];
 

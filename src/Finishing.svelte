@@ -10,19 +10,19 @@
     let imgs = [
         {
             "title": "Paints",
-            "address": "./images/finishing/finishing1.jpeg",
+            "address": "./images/finishing/finishing1.webp",
         },
         {
             "title": "Sealants",
-            "address": "./images/finishing/finishing2.jpeg",
+            "address": "./images/finishing/finishing2.webp",
         },
         {
             "title": "Varnishes",
-            "address": "./images/finishing/finishing3.jpeg",
+            "address": "./images/finishing/finishing3.webp",
         },
         {
             "title": "Wallpapers",
-            "address": "./images/finishing/finishing4.jpeg",
+            "address": "./images/finishing/finishing4.webp",
         },
     ];
 

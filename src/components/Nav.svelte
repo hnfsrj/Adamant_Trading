@@ -308,7 +308,7 @@
             .logo{
                 width:80px;
                 aspect-ratio: 873/403;
-                background-image:url("./images/logo.png");
+                background-image:url("./images/logo.webp");
             }
 
             .name{

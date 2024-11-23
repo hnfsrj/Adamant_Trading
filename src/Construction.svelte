@@ -10,12 +10,12 @@
     let imgs = [
         {
             "title": "Full Body Safety Harness Too",
-            "address": "./images/construction/construction1.jpeg",
+            "address": "./images/construction/construction1.webp",
         },
         
         {
             "title": "Home ToolKit",
-            "address": "./images/construction/construction2.jpeg",
+            "address": "./images/construction/construction2.webp",
         },
     ];
 

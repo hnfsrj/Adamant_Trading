@@ -28,7 +28,7 @@
         <a href="/#/aluminium">
             <div class="effect_shrink animate_shrink service_content">
 
-                <div style="background-image:url('./images/aluminium/aluminium1.jpg');" class="service_pic img"></div>
+                <div style="background-image:url('./images/aluminium/aluminium1.webp');" class="service_pic img"></div>
 
                 <p>Alumunium</p>
 
@@ -38,7 +38,7 @@
         <a href="/#/steel">
         <div class="effect_shrink animate_shrink service_content">
 
-            <div style="background-image:url('./images/steel/steel1.jpg');" class="service_pic img"></div>
+            <div style="background-image:url('./images/steel/steel1.webp');" class="service_pic img"></div>
 
             <p>Steel</p>
 
@@ -48,7 +48,7 @@
         <a href="/#/fashion">
         <div class="effect_shrink animate_shrink service_content">
 
-            <div style="background-image:url('./images/fashion/fashion1.jpg');" class="service_pic img"></div>
+            <div style="background-image:url('./images/fashion/fashion1.webp');" class="service_pic img"></div>
 
             <p>Fashion</p>
  
@@ -58,7 +58,7 @@
         <a href="/#/electronics">
         <div class="effect_shrink animate_shrink service_content">
 
-            <div style="background-image:url('./images/electronics/electronics2.jpg');" class="service_pic img"></div>
+            <div style="background-image:url('./images/electronics/electronics2.webp');" class="service_pic img"></div>
 
             <p>Electronics</p>
 
@@ -68,7 +68,7 @@
         <a href="/#/ceramics">
         <div class="effect_shrink animate_shrink service_content">
 
-            <div style="background-image:url('./images/ceramics/ceramics1.jpg');" class="service_pic img"></div>
+            <div style="background-image:url('./images/ceramics/ceramics1.webp');" class="service_pic img"></div>
 
             <p>Ceramics</p>
                 
@@ -78,7 +78,7 @@
         <a href="/#/finishing">
         <div class="effect_shrink animate_shrink service_content">
 
-            <div style="background-image:url('./images/finishing/finishing1.jpeg');" class="service_pic img"></div>
+            <div style="background-image:url('./images/finishing/finishing1.webp');" class="service_pic img"></div>
 
             <p>Finishing Materials</p>
             
@@ -88,7 +88,7 @@
         <a href="/#/hvac">
         <div class="effect_shrink animate_shrink service_content">
 
-            <div style="background-image:url('./images/hvac/hvac1.jpeg');" class="service_pic img"></div>
+            <div style="background-image:url('./images/hvac/hvac1.webp');" class="service_pic img"></div>
 
             <p>HVAC</p>
             
@@ -99,7 +99,7 @@
         <a href="/#/construction">
         <div class="effect_shrink animate_shrink service_content">
 
-            <div style="background-image:url('./images/construction/construction1.jpeg');" class="service_pic img"></div>
+            <div style="background-image:url('./images/construction/construction1.webp');" class="service_pic img"></div>
 
             <p>Construction Accessories</p>
             
@@ -110,7 +110,7 @@
         <a href="/#/fmcg">
         <div class="effect_shrink animate_shrink service_content">
 
-            <div style="background-image:url('./images/fmcg/fmcg1.jpg');" class="service_pic img"></div>
+            <div style="background-image:url('./images/fmcg/fmcg1.webp');" class="service_pic img"></div>
 
             <p>FMCG</p>
             

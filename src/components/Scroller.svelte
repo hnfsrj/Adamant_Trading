@@ -35,32 +35,32 @@
 
         <div class="scroll">
 
-            <div style="background-image:url('./images/aluminium/aluminium2.jpg');" class="scroll_pic"></div>
+            <div style="background-image:url('./images/aluminium/aluminium2.webp');" class="scroll_pic"></div>
 
         </div>
         
         <div class="scroll">
 
-            <div style="background-image:url('./images/finishing/finishing2.jpeg');" class="scroll_pic"></div>
+            <div style="background-image:url('./images/finishing/finishing2.webp');" class="scroll_pic"></div>
 
         </div>
         
         <div class="scroll">
 
-            <div style="background-image:url('./images/ceramics/ceramics2.jpg');" class="scroll_pic"></div>
+            <div style="background-image:url('./images/ceramics/ceramics2.webp');" class="scroll_pic"></div>
 
         </div>
 
         <div class="scroll">
 
-            <div style="background-image:url('./images/construction/construction2.jpeg');" class="scroll_pic"></div>
+            <div style="background-image:url('./images/construction/construction2.webp');" class="scroll_pic"></div>
 
         </div>
 
 
         <div class="scroll">
 
-            <div style="background-image:url('./images/hvac/hvac2.jpeg');" class="scroll_pic"></div>
+            <div style="background-image:url('./images/hvac/hvac2.webp');" class="scroll_pic"></div>
 
         </div>
         
@@ -68,14 +68,14 @@
         
         <div class="scroll">
 
-            <div style="background-image:url('./images/steel/steel2.jpg');" class="scroll_pic"></div>
+            <div style="background-image:url('./images/steel/steel2.webp');" class="scroll_pic"></div>
 
         </div>
         
         
         <div class="scroll">
 
-            <div style="background-image:url('./images/finishing/finishing2.jpeg');" class="scroll_pic"></div>
+            <div style="background-image:url('./images/finishing/finishing2.webp');" class="scroll_pic"></div>
 
         </div>
 
@@ -83,7 +83,7 @@
 
         <div class="scroll">
 
-            <div style="background-image:url('./images/electronics/electronics2.jpg');" class="scroll_pic"></div>
+            <div style="background-image:url('./images/electronics/electronics2.webp');" class="scroll_pic"></div>
 
         </div>
 
@@ -97,54 +97,54 @@
 
         <div class="scroll">
 
-            <div style="background-image:url('./images/aluminium/aluminium2.jpg');" class="scroll_pic"></div>
+            <div style="background-image:url('./images/aluminium/aluminium2.webp');" class="scroll_pic"></div>
 
         </div>
         
         <div class="scroll">
 
-            <div style="background-image:url('./images/finishing/finishing2.jpeg');" class="scroll_pic"></div>
+            <div style="background-image:url('./images/finishing/finishing2.webp');" class="scroll_pic"></div>
 
         </div>
         
         <div class="scroll">
 
-            <div style="background-image:url('./images/ceramics/ceramics2.jpg');" class="scroll_pic"></div>
+            <div style="background-image:url('./images/ceramics/ceramics2.webp');" class="scroll_pic"></div>
 
         </div>
 
         <div class="scroll">
 
-            <div style="background-image:url('./images/construction/construction2.jpeg');" class="scroll_pic"></div>
-
-        </div>
-
-
-        <div class="scroll">
-
-            <div style="background-image:url('./images/hvac/hvac2.jpeg');" class="scroll_pic"></div>
-
-        </div>
-        
-        
-        
-        <div class="scroll">
-
-            <div style="background-image:url('./images/steel/steel2.jpg');" class="scroll_pic"></div>
-
-        </div>
-        
-        
-        <div class="scroll">
-
-            <div style="background-image:url('./images/finishing/finishing2.jpeg');" class="scroll_pic"></div>
+            <div style="background-image:url('./images/construction/construction2.webp');" class="scroll_pic"></div>
 
         </div>
 
 
         <div class="scroll">
 
-            <div style="background-image:url('./images/electronics/electronics2.jpg');" class="scroll_pic"></div>
+            <div style="background-image:url('./images/hvac/hvac2.webp');" class="scroll_pic"></div>
+
+        </div>
+        
+        
+        
+        <div class="scroll">
+
+            <div style="background-image:url('./images/steel/steel2.webp');" class="scroll_pic"></div>
+
+        </div>
+        
+        
+        <div class="scroll">
+
+            <div style="background-image:url('./images/finishing/finishing2.webp');" class="scroll_pic"></div>
+
+        </div>
+
+
+        <div class="scroll">
+
+            <div style="background-image:url('./images/electronics/electronics2.webp');" class="scroll_pic"></div>
 
         </div>
 
