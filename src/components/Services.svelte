@@ -78,7 +78,7 @@
         <a href="/#/finishing">
         <div class="effect_shrink animate_shrink service_content">
 
-            <div style="background-image:url('./images/finishing/finishing1.webp');" class="service_pic img"></div>
+            <div style="background-image:url('./images/finishing/finishing3.webp');" class="service_pic img"></div>
 
             <p>Finishing Materials</p>
             

@@ -75,7 +75,7 @@
         
         <div class="scroll">
 
-            <div style="background-image:url('./images/finishing/finishing2.webp');" class="scroll_pic"></div>
+            <div style="background-image:url('./images/finishing/finishing3.webp');" class="scroll_pic"></div>
 
         </div>
 
@@ -137,7 +137,7 @@
         
         <div class="scroll">
 
-            <div style="background-image:url('./images/finishing/finishing2.webp');" class="scroll_pic"></div>
+            <div style="background-image:url('./images/finishing/finishing3.webp');" class="scroll_pic"></div>
 
         </div>
 
@@ -182,6 +182,8 @@
         justify-content: start;
         width:fit-content;
         animation: 25s slide infinite linear;
+        padding-bottom:3px;
+        /* overflow: visible; */
     }
 
     @keyframes slide{
@@ -200,6 +202,7 @@
             justify-content: start;
             align-items: center;
             margin:0px 10px;
+            /* overflow: visible; */
         }
 
 
@@ -210,6 +213,8 @@
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center center;
+                border:2px solid var(--metal);
+                box-shadow: -2px 2px 4px 1px var(--metal);
             }
 
 
