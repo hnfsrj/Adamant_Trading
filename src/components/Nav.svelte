@@ -285,7 +285,7 @@
                 
 
     nav.fixation{
-        box-shadow: 0px 4px 7px 2px rgba(0,0,0,0.4);#/
+        box-shadow: 0px 4px 7px 2px rgba(0,0,0,0.4);
     }
 
         nav.fixation .top{
