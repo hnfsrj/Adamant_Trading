@@ -23,6 +23,8 @@
         width:100%;
         aspect-ratio:600/450;
         background:silver;
+        margin:0 auto;
+        margin-bottom:80px;
     }
 
     iframe{
@@ -32,11 +34,34 @@
 
 
 
+
+
+
+
+
+@media (min-width:601px){
+
+    .iframe_container{
+        width:80%;
+    }
+
+}
+
+
+@media (min-width:951px){
+    .iframe_container{
+        width:70%;
+    }
+
+}
+
 @media (min-width:901px){
 
     .iframe_container{
         aspect-ratio:auto;
+        width:100%;
         height:200px;
+        margin-bottom:40px;
     }
 
 

@@ -23,18 +23,18 @@
 
             <p>E-MAIL: adamantexport@gmail.com</p>
 
-            <!-- <Socials /> -->
+            <Socials />
 
             <div class="infos_div">
 
                 <div class="info">
                     <div>Head Office</div>
 
-                    <p>TEL: +971 50 968 1540</p>
-                    <p>EMAIL: adamantexport<wbr/>@gmail.com </p>
-                    <p>DUBAI SHOPPING CENTRE, 1ST FLOOR OPPOSITE TO DEIRA CITY CENTER</p>
+                    <p>Tel: +971 50 968 1540</p>
+                    <p>Email: adamantexport<wbr/>@gmail.com </p>
+                    <p>Dubai Shopping Centre,<br/>1st Floor Opposite To Deira City Center</p>
                     <p>P.O.BOX 251006</p>
-                    <p>DUBAI, UAE</p>
+                    <p>Dubai, UAE</p>
 
                 </div>
                 
@@ -43,18 +43,15 @@
 
                     <p>TEL: +251 911 24 64 75</p>
                     <p>EMAIL: info<wbr/>@gmail.com </p>
-                    <p>GOFA GEBRIEL JFK BUILDING 3RD FLOOR</p>
-                    <p>ADDIS ABABA, ETHIOPIA</p>
+                    <p>Gofa Gebriel JFK Building<br/>3rd Floor</p>
+                    <p>Addis Ababa, Ethiopia</p>
 
                 </div>
 
             </div>
 
             {#if !wide}
-                <div class="maps_and_socials">
-                    <Map />
-                    <Socials />
-                </div>
+                <Map />
             {/if}
 
 
@@ -65,10 +62,7 @@
     </div>
 
     {#if wide}
-        <div class="maps_and_socials">
-            <Map />
-            <Socials />
-        </div>
+        <Map />
     {/if}
 
     <h6>© 2024 Adamant Trading.<br/>All Rights Reserved.</h6>
@@ -144,15 +138,6 @@
                 margin-bottom:7px;
             }
 
-        .maps_and_socials{
-            width:100%;
-            display: flex;
-            flex-direction:column;
-            gap:30px;
-            align-items: start;
-            margin:0 auto;
-            margin-bottom:80px;
-        }
 
 
     h6{
@@ -257,10 +242,6 @@
     }
 
 
-    .maps_and_socials{
-        width:80%;
-    }
-
 }
 
 @media (min-width:801px){
@@ -272,13 +253,6 @@
 }
 
 
-@media (min-width:851px){
-
-    .maps_and_socials{
-        width:70%;
-    }
-
-}
 
 
 @media (min-width:901px){
@@ -325,12 +299,6 @@
         margin-bottom:10px;
     }
 
-
-
-    .maps_and_socials{
-        width:100%;
-        align-items: center;
-    }
 
 }
 

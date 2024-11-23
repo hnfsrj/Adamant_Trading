@@ -23,6 +23,7 @@
         display:flex;
         justify-content: space-between;
         width:40%;
+        margin-bottom:50px;
     }
 
         .socials_container img{
@@ -37,18 +38,18 @@
 }
 
 
+@media (min-width:601px){
+    .socials_container{
+        width:200px;
+    }
+}
+
+
 @media (min-width:901px){
     .socials_container{
-        width:30%;
+        width:160px;
     }
 }
-
-@media (min-width:1001px){
-    .socials_container{
-        width:25%;
-    }
-}
-
 
 
 </style>
