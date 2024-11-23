@@ -4,7 +4,7 @@
 
 
 <div>
-    <a href="/#/"><p>Back Home</p></a>
+    <a href="/"><p>Back Home</p></a>
 </div>
 
 

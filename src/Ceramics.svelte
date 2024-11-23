@@ -10,15 +10,15 @@
     let imgs = [
         {
             "title": "Ceramics Tiles",
-            "address": "./images/ceramics/ceramics1.jpg",
+            "address": "../images/ceramics/ceramics1.jpg",
         },
         {
             "title": "Disabled Wash Basin",
-            "address": "./images/ceramics/ceramics2.jpg",
+            "address": "../images/ceramics/ceramics2.jpg",
         },
         {
             "title": "Washbasin Mixer",
-            "address": "./images/ceramics/ceramics3.jpg",
+            "address": "../images/ceramics/ceramics3.jpg",
         },
     ];
 

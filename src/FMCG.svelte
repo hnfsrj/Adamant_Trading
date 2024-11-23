@@ -10,7 +10,7 @@
     let imgs = [
         {
             "title": "FMCG",
-            "address": "./images/fmcg/fmcg1.jpg",
+            "address": "../images/fmcg/fmcg1.jpg",
         },
 
     ];

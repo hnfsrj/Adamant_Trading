@@ -22,7 +22,7 @@
 
 <nav>
 
-    <a href="/#/"><p class="name">MESSP</p></a>
+    <a href="/"><p class="name">Adamant Trading</p></a>
 
 </nav>
 

@@ -25,7 +25,7 @@
 
     <div class="service_container">
         
-        <a href="/#/aluminium">
+        <a href="/aluminium">
             <div class="effect_shrink animate_shrink service_content">
 
                 <div style="background-image:url('./images/aluminium/aluminium1.jpg');" class="service_pic img"></div>
@@ -35,7 +35,7 @@
             </div>
         </a>
 
-        <a href="/#/steel">
+        <a href="/steel">
         <div class="effect_shrink animate_shrink service_content">
 
             <div style="background-image:url('./images/steel/steel1.jpg');" class="service_pic img"></div>
@@ -45,7 +45,7 @@
         </div>
         </a>
 
-        <a href="/#/fashion">
+        <a href="/fashion">
         <div class="effect_shrink animate_shrink service_content">
 
             <div style="background-image:url('./images/fashion/fashion1.jpg');" class="service_pic img"></div>
@@ -55,7 +55,7 @@
         </div>
         </a>
 
-        <a href="/#/electronics">
+        <a href="/electronics">
         <div class="effect_shrink animate_shrink service_content">
 
             <div style="background-image:url('./images/electronics/electronics2.jpg');" class="service_pic img"></div>
@@ -65,7 +65,7 @@
         </div>
         </a>
         
-        <a href="/#/ceramics">
+        <a href="/ceramics">
         <div class="effect_shrink animate_shrink service_content">
 
             <div style="background-image:url('./images/ceramics/ceramics1.jpg');" class="service_pic img"></div>
@@ -75,7 +75,7 @@
         </div>
         </a>
 
-        <a href="/#/finishing">
+        <a href="/finishing">
         <div class="effect_shrink animate_shrink service_content">
 
             <div style="background-image:url('./images/finishing/finishing1.jpeg');" class="service_pic img"></div>
@@ -85,7 +85,7 @@
         </div>
         </a>
 
-        <a href="/#/hvac">
+        <a href="/hvac">
         <div class="effect_shrink animate_shrink service_content">
 
             <div style="background-image:url('./images/hvac/hvac1.jpeg');" class="service_pic img"></div>
@@ -96,7 +96,7 @@
         </a>
         
         
-        <a href="/#/construction">
+        <a href="/construction">
         <div class="effect_shrink animate_shrink service_content">
 
             <div style="background-image:url('./images/construction/construction1.jpeg');" class="service_pic img"></div>
@@ -107,7 +107,7 @@
         </a>
         
         
-        <a href="/#/fmcg">
+        <a href="/fmcg">
         <div class="effect_shrink animate_shrink service_content">
 
             <div style="background-image:url('./images/fmcg/fmcg1.jpg');" class="service_pic img"></div>

@@ -169,15 +169,15 @@
                     {#if services && wide}
 
                         <div style="position:absolute;transform: translateX(-40%);width:250px;" class="dropdown">
-                            <a href="/#/aluminium"><p>Alumunium</p></a>
-                            <a href="/#/steel"><p>Steel</p></a>
-                            <a href="/#/fashion"><p>Fashion</p></a>
-                            <a href="/#/electronics"><p>Electronics</p></a>
-                            <a href="/#/ceramics"><p>Ceramics</p></a>
-                            <a href="/#/finishing"><p>Finishing Materials</p></a>
-                            <a href="/#/hvac"><p>HVAC</p></a>
-                            <a href="/#/construction"><p>Construction Accessories</p></a>
-                            <a href="/#/fmcg"><p>FMCG</p></a>
+                            <a href="/aluminium"><p>Alumunium</p></a>
+                            <a href="/steel"><p>Steel</p></a>
+                            <a href="/fashion"><p>Fashion</p></a>
+                            <a href="/electronics"><p>Electronics</p></a>
+                            <a href="/ceramics"><p>Ceramics</p></a>
+                            <a href="/finishing"><p>Finishing Materials</p></a>
+                            <a href="/hvac"><p>HVAC</p></a>
+                            <a href="/construction"><p>Construction Accessories</p></a>
+                            <a href="/fmcg"><p>FMCG</p></a>
                         </div>
             
                     {/if}
@@ -191,15 +191,15 @@
         {#if services && !wide}
 
             <div class="dropdown">
-                <a href="/#/aluminium"><p>Alumunium</p></a>
-                <a href="/#/steel"><p>Steel</p></a>
-                <a href="/#/fashion"><p>Fashion</p></a>
-                <a href="/#/electronics"><p>Electronics</p></a>
-                <a href="/#/ceramics"><p>Ceramics</p></a>
-                <a href="/#/finishing"><p>Finishing Materials</p></a>
-                <a href="/#/hvac"><p>HVAC</p></a>
-                <a href="/#/construction"><p>Construction Accessories</p></a>
-                <a href="/#/fmcg"><p>FMCG</p></a>
+                <a href="/aluminium"><p>Alumunium</p></a>
+                <a href="/steel"><p>Steel</p></a>
+                <a href="/fashion"><p>Fashion</p></a>
+                <a href="/electronics"><p>Electronics</p></a>
+                <a href="/ceramics"><p>Ceramics</p></a>
+                <a href="/finishing"><p>Finishing Materials</p></a>
+                <a href="/hvac"><p>HVAC</p></a>
+                <a href="/construction"><p>Construction Accessories</p></a>
+                <a href="/fmcg"><p>FMCG</p></a>
             </div>
 
         {/if}
@@ -278,7 +278,11 @@
                 nav.scrolled_wide .bottom .bottom_services .dropdown p{
                     color:var(--metal);
                 }
-        
+                
+                nav.scrolled_wide .bottom .bottom_services .dropdown p:hover{
+                    color:white;
+                }
+                
 
     nav.fixation{
         box-shadow: 0px 4px 7px 2px rgba(0,0,0,0.4);

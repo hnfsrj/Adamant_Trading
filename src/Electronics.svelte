@@ -10,15 +10,15 @@
     let imgs = [
         {
             "title": "Desktop Computer",
-            "address": "./images/electronics/electronics1.jpg",
+            "address": "../images/electronics/electronics1.jpg",
         },
         {
             "title": "Security Cameras",
-            "address": "./images/electronics/electronics2.jpg",
+            "address": "../images/electronics/electronics2.jpg",
         },
         {
             "title": "Vacuum Cleaner",
-            "address": "./images/electronics/electronics3.jpg",
+            "address": "../images/electronics/electronics3.jpg",
         },
     ];
 
