@@ -8,9 +8,9 @@
 
 <div class="socials_container">
     
-    <img src="./images/socials/facebook.svg"/>
-    <img src="./images/socials/linkedin.svg"/>
-    <img src="./images/socials/youtube.svg"/>
+    <a href="https://www.facebook.com/adamantexport"><img src="./images/socials/facebook.svg"/></a>
+    <a href="http://linkedin.com/company/adamantexport"><img src="./images/socials/linkedin.svg"/></a>
+    <a href="http://www.youtube.com/@adamantexport"><img src="./images/socials/youtube.svg"/></a>
 
 </div>
 
@@ -25,6 +25,12 @@
         width:40%;
         margin-bottom:50px;
     }
+
+        a{
+            text-decoration: none;
+            color:inherit;
+            background:none;
+        }
 
         .socials_container img{
             width:30px;
