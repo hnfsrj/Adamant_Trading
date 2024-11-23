@@ -28,14 +28,14 @@
 
 
 <Router routes={{
-	// '/': Home,
-	// '/': Aluminium,
-	// '/': Steel,
-	// '/': Fashion,
-	// '/': Electronics,
-	// '/': Ceramics,
-	// '/': Finishing,
-	// '/': HVAC,
-	// '/': Construction,
-	// '/': FMCG
+	'/': Home,
+	'/aluminium': Aluminium,
+	'/steel': Steel,
+	'/fashion': Fashion,
+	'/electronics': Electronics,
+	'/ceramics': Ceramics,
+	'/finishing': Finishing,
+	'/hvac': HVAC,
+	'/construction': Construction,
+	'/fmcg': FMCG
 }} />

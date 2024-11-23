@@ -10,16 +10,16 @@
     let imgs = [
         {
             "title": "Aluminium Flat Busbar",
-            "address": "../images/aluminium/aluminium1.jpg",
+            "address": "./images/aluminium/aluminium1.jpg",
         },{
             "title": "Aluminium Rectangular Pipe",
-            "address": "../images/aluminium/aluminium2.jpg",
+            "address": "./images/aluminium/aluminium2.jpg",
         },{
             "title": "Aluminium Square Tube",
-            "address": "../images/aluminium/aluminium3.jpg",
+            "address": "./images/aluminium/aluminium3.jpg",
         },{
             "title": "Aluminum Window Section",
-            "address": "../images/aluminium/aluminium4.jpg",
+            "address": "./images/aluminium/aluminium4.jpg",
         },
     ];
 
